@@ -3,9 +3,10 @@ import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
 
 /** There are two ways to load images
  * Method 1: Upload image to explorer in VS Code, local images
- * Here, we do not need to use <image></image>, we can make it more tidier by using <image />
- * 
- * Example ----> <Image source={require('./assets/icon.png')}/>
+ * Here, we do not need to use <Image></Image>, we can make it more tidier by using <Image />
+ * You can put image on assets for better location 
+ *
+ * Example ----> <Image source={require('./assets/file name')}/>
  * 
  *
  * Method 2: Use Network, beyond VS code local images
