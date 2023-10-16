@@ -58,4 +58,4 @@ in App.js, there is basic react native code, consitsting of:
 	-StyleSheet
 
 
-Access this for more components info
+Access this for more components info: https://reactnative.dev/docs/components-and-apis
