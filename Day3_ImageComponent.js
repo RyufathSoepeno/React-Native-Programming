@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
  * Method 1: Upload image to explorer in VS Code, local images
  * Here, we do not need to use <image></image>, we can make it more tidier by using <image />
  * 
- * Example ----> <image source={require('./assets/icon.png')}/>
+ * Example ----> <Image source={require('./assets/icon.png')}/>
  * 
  *
  * Method 2: Use Network, beyond VS code local images
@@ -18,7 +18,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text>Well done, you've made it!</Text>
-      <image 
+      <Image 
       fadeDuration={1000} /// Fade Duration is in milliseconds
       
       source={{
