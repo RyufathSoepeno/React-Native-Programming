@@ -26,7 +26,7 @@ WHERE THE MAGIC HAPPENS: In VS code terminal
 	1. type "cd Folder_Name"
 	2. type "code ."
 
-5. You run ur code on app.js
+5. You run and program ur code on app.js
 
 Note: It is best you safe ur progress code on Github, because you can only run and code on App.js, renaming them may cause complications
 =============================================
@@ -35,7 +35,7 @@ In VS code terminal part II
 1. Type "npm start"
 
 
-To run on expo app, open terminal, and scan qr code 
+To run on EXPO APP, open terminal, and scan qr code 
 (BE SURE YOUR LAPTOP AND PHONE ARE ON SAME NETWORK, OTHERWISE IT CANNOT WORK)
 
 If it cannot work, keep refresshing it will work eventually ;)
