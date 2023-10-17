@@ -7,6 +7,13 @@ import { View } from 'react-native';
 
  /// flex: 0.5 takes half, you do the maths
 
+ /** MAKE A COMPONENT IN REACT NATIVE
+  *  <view>
+  *     <view/>
+  *     <view/>
+  *  </view>
+  */
+
 export default function App() {
   return (
     <View style={{
