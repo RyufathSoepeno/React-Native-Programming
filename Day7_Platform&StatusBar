@@ -1,0 +1,36 @@
+import { StyleSheet, Text, TouchableOpacity, Image, Platform, StatusBar, Button, Alert, SafeAreaView } from 'react-native';
+
+
+export default function App() {
+  return (
+    <SafeAreaView style={MyStyle.container}>
+      
+      <Button 
+        color="green"
+        title="Click Me" 
+        onPress={() => 
+          Alert.alert("Hello There", "How would you like to proceed?", 
+            [
+              {text: "Yes"},
+              {text: "No"}
+            ]
+          )
+        }
+      />
+
+      <StatusBar style="auto" />
+    </SafeAreaView>
+  );
+}
+
+const MyStyle = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'dodgerblue',
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0, 
+  },
+});
+
+/// We use platform to similarize both Android and IOS users
+
+/// Height : Width ---> Padding top
