@@ -35,7 +35,7 @@ import { useDeviceOrientation } from '@react-native-community/hooks'
 
 /* Install hooks by "npm i @react-native-community/hooks" */
 
-// then import
+// then import { useDeviceOrientation } from '@react-native-community/hooks'
 
 
 export default function App() {
