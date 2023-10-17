@@ -22,7 +22,7 @@ WHERE THE MAGIC HAPPENS: In VS code terminal
 
 3. It will take a while, wait for download
 
-4. After that, open the folder and run in vs code:
+4. After that, open the folder and run in vs code: [PROCEED HERE WHEN FOLDER ALREADY CREATED WHEN U COME BACK]
 	1. type "cd Folder_Name"
 	2. type "code ."
 
